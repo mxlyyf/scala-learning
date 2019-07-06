@@ -1,7 +1,7 @@
 package com.atguigu.scala.day05
 
 import scala.collection.mutable
-import scala.collection.mutable.ArrayBuffer
+import scala.collection.mutable.{ArrayBuffer, ListBuffer}
 
 object Demo01 {
 
@@ -15,6 +15,10 @@ object Demo01 {
       arr1
     })
     println(arr1)
+
+    var list = List("hello","atguigu","meilaica")
+    val chars = list.flatMap(s => s.concat("a"))
+    println(chars)
 
     var map : mutable.Map[Char,Long] = mutable.Map()
 

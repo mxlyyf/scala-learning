@@ -1,4 +1,4 @@
-package com.atguigu.spark.straming
+package com.atguigu.spark.streaming
 
 import org.apache.spark.SparkConf
 import org.apache.spark.streaming.{Seconds, StreamingContext}
